@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyubashas Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 300px;
+            background: url("https://www.appmachine.com/wp-content/uploads/2016/02/No-Branding-Header-Background-1.jpg") top center / cover;
+        }
+
+        .header-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 850px;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+        .avatar {
+            margin-top: 25px;
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            background: url("./Lyubash.jpg") top center / cover;
+            box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .user-info {
+            margin-top: 45px;
+            text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.3);
+            color: white;
+            text-align: left;
+        }
+
+        .user-info h1 {
+            font-size: 50px;
+            font-weight: 900;
+            line-height: 50px;
+        }
+
+        .user-info h4 {
+            font-size: 30px;
+            font-weight: 100;
+            margin-top: 10px;
+        }
+
+        .user-info p {
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        .resume-container {
+            background-color: #51979722;
+        }
+
+        .resume-header {
+            text-align: center;
+            margin: 0 auto;
+            font-size: 60px;
+            font-weight: 900;
+        }
+
+        .content-container {
+            padding-bottom: 50px;
+        }
+
+        .content-container h1 {
+            padding-top: 50px;
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Train One', cursive;
+        }
+
+        .work-block {
+            padding: 50px 80px 0;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .work-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #397fa0;
+        }
+
+        .work-block .date {
+            font-weight: 900;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .company-name {
+            font-weight: 900;
+            font-style: italic;
+            text-align: right;
+        }
+
+        .work-description {
+            margin-top: 10px;
+            width: 100%;
+            font-style: italic;
+        }
+
+        .work-description li {
+            font-size: 20px;
+            margin-top: 10px;
+            list-style: none;
+            position: relative;
+        }
+
+        .work-description li::before {
+            position: absolute;
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: #397fa0;
+            left: -20px;
+            top: 7px;
+        }
+
+        .skills {
+            padding: 50px 80px 0;
+            font-size: 20px;
+        }
+
+        .profile {
+            padding: 50px 80px 0;
+            font-size: 20px;
+        }
+
+        .profile li {
+            font-size: 20px;
+            margin-top: 10px;
+            list-style: none;
+            position: relative;
+            font-style: italic;
+        }
+
+        .profile li::before {
+            position: absolute;
+            content: '';
+            width: 10px;
+            height: 10px;
+            background-color: #397fa0;
+            left: -20px;
+            top: 7px;
+        }
+
+        .education-block {
+            padding: 50px 80px 0;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .education-header {
+            display: flex;
+            align-items: center;
+            color: #397fa0;
+            justify-content: center;
+        }
+
+        .education-block .date {
+            font-weight: 900;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .education-name {
+            font-size: 20px;
+            font-style: italic;
+            padding-left: 40px;
+            color: black;
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header />
+        <div class="header-container">
+            <div class="avatar"></div>
+            <div class="user-info">
+                <h1>Мушенко</h1>
+                <h1>Любовь Андреевна</h1>
+                <h4>Девушка Кошка</h4>
+                <p>Дата рождения: 03.09.1999 </br>
+                    Гражданство: Украина</br>
+                    Телефон: 050-1565-157</br>
+                    Эл. почта: prostolyubov99@gmail.com
+                </p>
+            </div>
+        </div>
+
+        <div class="resume-container">
+            <div class="content-container">
+                <h1>Опыт работы</h1>
+
+                <div class="work-block">
+                    <div class="work-header">
+                        <div class="date">02.2018 - 11.2018</div>
+                        <div class="company-name">ТОВ ТИТАН, г. Харьков (сеть аптек «Здоровье»)</br>
+                            Должность: фармацевт.</div>
+                    </div>
+                    <div class="work-description">
+                        <ul>
+                            <li>
+                                Заказ и продажа лекарственных препаратов и изделий медицинского назначения
+                                через 1С;
+                            </li>
+                            <li>
+                                Выкладка и переоценка товара, контроль сроков годности.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work-block">
+                    <div class="work-header">
+                        <div class="date">10.2019 – 08.2020</div>
+                        <div class="company-name">Компания Tropfish</br>
+                            Должность: офис-менеджер, менеджер по продажам.</div>
+                    </div>
+                    <div class="work-description left-side">
+                        <ul>
+                            <li>Поиск и привлечение клиентов;</li>
+                            <li>работа с клиентской базой и поддержание ее в актуальном состоянии;</li>
+                            <li>ведение CRM системы;</li>
+                            <li>проведение операций и подготовка документов в 1С;</li>
+                            <li>контроль отгрузок на складе;</li>
+                            <li>работа с корреспонденцией и курьерскими службами;</li>
+                            <li>контроль взаиморасчетов с клиентами и поставщиками;</li>
+                            <li>работа с социальными сетями, подготовка email- и смс-рассылок.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work-block">
+                    <div class="work-header">
+                        <div class="date">08.2020 - 09.2021</div>
+                        <div class="company-name">Компания Meberg (ранее Панськи мебли), ТОВ Сола трейд</br>
+                            Должность: офис-менеджер.</div>
+                    </div>
+                    <div class="work-description">
+                        <ul>
+                            <li>Проведение операций и подготовка документов в 1С;</li>
+                            <li>работа с клиентской базой и поддержание ее в актуальном состоянии;</li>
+                            <li>контроль взраиморасчетов;</li>
+                            <li>работа с корреспонденцией и курьерскими службами;</li>
+                            <li>подготовка контента для Telegram-канала.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h1>Профессиональные навыки и знания</h1>
+
+                <p class="skills">Знания Английского языка: intermediate.
+                    Опыт работы в 1C:Предприятие 8.2, AmoCRM, ESputnik.
+                    Опытный пользователь ПК: MS Office (Word, Exсel, Power Point, Access, LibreOffice),
+                    TeamViewer,
+                    Skype, FixPoint и др.
+                </p>
+
+                <h1>Личные качества</h1>
+
+                <div class="profile">
+                    <ul>
+                        <li>Аналитический склад ума.</li>
+                        <li>Педантичность — точность и аккуратность в выполнении поставленных задач.</li>
+                        <li>Позитивное мышление — умею видеть возможности в любой ситуации.</li>
+                        <li>Самостоятельность — способность к самодисциплине, умение самостоятельно принимать
+                            решения и нести за них ответственность.</li>
+                        <li>Результативность — всегда добиваюсь поставленной цели.</li>
+                        <li>Стремление к развитию — желание не останавливаться на достигнутом, всегда быть лучше.
+                        </li>
+                    </ul>
+                </div>
+
+                <h1>Образование</h1>
+
+                <div class="education-block">
+                    <div class="education-header">
+                        <div class="date">2016 – 2018</div>
+                        <div class="education-name">Колледж Национального фармацевтического университета</br>
+                            Специальность: фармация
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-block">
+                    <div class="education-header">
+                        <div class="date">2018 - 2019</div>
+                        <div class="education-name">Курс палиативной медицины</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
